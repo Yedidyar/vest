@@ -1,4 +1,4 @@
-import { bindNot } from 'vest-utils';
+import bindNot from 'bindNot';
 
 export function isNumeric(value: string | number): boolean {
   const str = String(value);

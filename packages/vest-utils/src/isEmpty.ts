@@ -1,5 +1,5 @@
-import { bindNot, hasOwnProperty } from 'vest-utils';
-
+import bindNot from 'bindNot';
+import hasOwnProperty from 'hasOwnProperty';
 import { lengthEquals } from 'lengthEquals';
 
 export function isEmpty(value: unknown): boolean {

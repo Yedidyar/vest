@@ -1,5 +1,4 @@
-import { isEmpty } from 'isEmpty';
-import { hasOwnProperty, isFunction, nestedArray } from 'vest-utils';
+import { isEmpty, hasOwnProperty, isFunction, nestedArray } from 'vest-utils';
 
 import VestTest from 'VestTest';
 import {

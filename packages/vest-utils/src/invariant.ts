@@ -1,5 +1,5 @@
+import optionalFunctionValue from 'optionalFunctionValue';
 import { Stringable } from 'utilityTypes';
-import { optionalFunctionValue } from 'vest-utils';
 
 export default function invariant(
   condition: any,

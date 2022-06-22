@@ -1,5 +1,4 @@
-import { isStringValue } from 'isStringValue';
-import { bindNot, isNullish } from 'vest-utils';
+import { isStringValue, bindNot, isNullish } from 'vest-utils';
 
 export function isBlank(value: unknown): boolean {
   return isNullish(value) || (isStringValue(value) && !value.trim());

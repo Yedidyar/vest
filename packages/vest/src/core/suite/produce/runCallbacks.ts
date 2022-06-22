@@ -1,5 +1,4 @@
-import { isArray } from 'isArrayValue';
-import { callEach } from 'vest-utils';
+import { isArray, callEach } from 'vest-utils';
 
 import hasRemainingTests from 'hasRemainingTests';
 import { useTestCallbacks } from 'stateHooks';

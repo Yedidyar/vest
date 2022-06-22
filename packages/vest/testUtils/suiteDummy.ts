@@ -1,4 +1,4 @@
-import asArray from '../../shared/src/asArray';
+import asArray from 'asArray';
 
 import { dummyTest } from './testDummy';
 

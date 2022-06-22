@@ -1,6 +1,4 @@
-import { isArray } from 'isArrayValue';
-import { isStringValue } from 'isStringValue';
-import { asArray } from 'vest-utils';
+import { isArray, isStringValue, asArray } from 'vest-utils';
 
 import { useSetOptionalField } from 'stateHooks';
 

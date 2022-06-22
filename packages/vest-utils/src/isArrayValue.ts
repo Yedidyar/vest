@@ -1,4 +1,4 @@
-import { bindNot } from 'vest-utils';
+import bindNot from 'bindNot';
 
 // The module is named "isArrayValue" since it
 // is conflicting with a nested npm dependency.

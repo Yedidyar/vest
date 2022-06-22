@@ -1,4 +1,4 @@
-import { optionalFunctionValue } from 'vest-utils';
+import optionalFunctionValue from 'optionalFunctionValue';
 
 export default function defaultTo<T>(
   value: T | ((...args: any[]) => T),

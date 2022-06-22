@@ -1,5 +1,4 @@
-import { isStringValue } from 'isStringValue';
-import { invariant, isFunction } from 'vest-utils';
+import { isStringValue, invariant, isFunction } from 'vest-utils';
 
 import { IsolateTypes } from 'IsolateTypes';
 import context from 'ctx';

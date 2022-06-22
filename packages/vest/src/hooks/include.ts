@@ -1,5 +1,5 @@
-import { isStringValue } from 'isStringValue';
 import {
+  isStringValue,
   defaultTo,
   hasOwnProperty,
   invariant,

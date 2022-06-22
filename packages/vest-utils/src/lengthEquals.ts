@@ -1,5 +1,4 @@
-import { bindNot } from 'vest-utils';
-
+import bindNot from 'bindNot';
 import { numberEquals } from 'numberEquals';
 
 export function lengthEquals(
