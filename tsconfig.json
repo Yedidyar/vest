@@ -118,6 +118,7 @@
       "partition": ["./packages/vest-utils/src/partition.ts"],
       "throwError": ["./packages/vest-utils/src/throwError.ts"],
       "utilityTypes": ["./packages/vest-utils/src/utilityTypes.ts"],
+      "vest-utils": ["./packages/vest-utils/src/vest-utils.ts"],
       "ctx": ["./packages/vest/src/core/ctx/ctx.ts"],
       "generateIsolate": [
         "./packages/vest/src/core/isolate/generateIsolate.ts"

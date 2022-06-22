@@ -21,7 +21,8 @@
   },
   "dependencies": {
     "context": "^2.0.6",
-    "n4s": "^4.1.7"
+    "n4s": "^4.1.7",
+    "vest-utils": "^0.0.3-rc"
   },
   "homepage": "https://vestjs.dev/",
   "exports": {
