@@ -1,5 +1,5 @@
-import assign from 'assign';
 import createCache from 'cache';
+import { assign } from 'vest-utils';
 
 import ctx from 'ctx';
 import genTestsSummary from 'genTestsSummary';

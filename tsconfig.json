@@ -99,6 +99,7 @@
       "cache": ["./packages/vest-utils/src/cache.ts"],
       "callEach": ["./packages/vest-utils/src/callEach.ts"],
       "defaultTo": ["./packages/vest-utils/src/defaultTo.ts"],
+      "deferThrow": ["./packages/vest-utils/src/deferThrow.ts"],
       "either": ["./packages/vest-utils/src/either.ts"],
       "genId": ["./packages/vest-utils/src/genId.ts"],
       "globals.d": ["./packages/vest-utils/src/globals.d.ts"],
@@ -116,7 +117,6 @@
         "./packages/vest-utils/src/optionalFunctionValue.ts"
       ],
       "partition": ["./packages/vest-utils/src/partition.ts"],
-      "throwError": ["./packages/vest-utils/src/throwError.ts"],
       "utilityTypes": ["./packages/vest-utils/src/utilityTypes.ts"],
       "vest-utils": ["./packages/vest-utils/src/vest-utils.ts"],
       "ctx": ["./packages/vest/src/core/ctx/ctx.ts"],

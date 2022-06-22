@@ -1,19 +1,19 @@
-import { createBus } from 'bus';
+import { bus } from 'vest-utils';
 
 describe('bus', () => {
   it('should be a function', () => {
-    expect(createBus).toBeInstanceOf(Function);
+    expect(bus.createBus).toBeInstanceOf(Function);
   });
 
   it('should return a bus', () => {
-    const bus = createBus();
+    const bus = bus.createBus();
     expect(bus).toBeInstanceOf(Object);
     expect(bus.emit).toBeInstanceOf(Function);
     expect(bus.on).toBeInstanceOf(Function);
   });
 
   it('should emit events', () => {
-    const bus = createBus();
+    const bus = bus.createBus();
     const spy = jest.fn();
     bus.on('test', spy);
     bus.emit('test');
@@ -21,7 +21,7 @@ describe('bus', () => {
   });
 
   it('should emit events with data', () => {
-    const bus = createBus();
+    const bus = bus.createBus();
     const spy = jest.fn();
     bus.on('test', spy);
     bus.emit('test', 'testData');
@@ -29,7 +29,7 @@ describe('bus', () => {
   });
 
   it('should emit events with multiple listeners', () => {
-    const bus = createBus();
+    const bus = bus.createBus();
     const spy1 = jest.fn();
     const spy2 = jest.fn();
     bus.on('test', spy1);
@@ -40,7 +40,7 @@ describe('bus', () => {
   });
 
   it('should emit events with multiple listeners and data', () => {
-    const bus = createBus();
+    const bus = bus.createBus();
     const spy1 = jest.fn();
     const spy2 = jest.fn();
     bus.on('test', spy1);
@@ -51,7 +51,7 @@ describe('bus', () => {
   });
 
   test('on returns an object with an `off` function', () => {
-    const bus = createBus();
+    const bus = bus.createBus();
     const spy = jest.fn();
     const off = bus.on('test', spy);
     expect(off).toBeInstanceOf(Object);
@@ -59,7 +59,7 @@ describe('bus', () => {
   });
 
   test('off should remove a listener', () => {
-    const bus = createBus();
+    const bus = bus.createBus();
     const spy = jest.fn();
     const off = bus.on('test', spy);
     off.off();
@@ -68,7 +68,7 @@ describe('bus', () => {
   });
 
   test('off should only remove specific handler', () => {
-    const bus = createBus();
+    const bus = bus.createBus();
     const spy1 = jest.fn();
     const spy2 = jest.fn();
     const off = bus.on('test', spy1);

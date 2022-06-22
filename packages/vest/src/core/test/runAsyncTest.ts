@@ -1,5 +1,5 @@
-import isPromise from 'isPromise';
 import { isStringValue } from 'isStringValue';
+import { isPromise } from 'vest-utils';
 
 import VestTest from 'VestTest';
 import ctx from 'ctx';

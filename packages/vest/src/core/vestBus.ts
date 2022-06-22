@@ -1,5 +1,4 @@
-import { createBus } from 'bus';
-import invariant from 'invariant';
+import { bus, invariant } from 'vest-utils';
 
 import VestTest from 'VestTest';
 import ctx from 'ctx';
@@ -12,7 +11,7 @@ import { useEachTestObject } from 'stateHooks';
 
 // eslint-disable-next-line max-lines-per-function
 export function initBus() {
-  const bus = createBus();
+  const bus = bus.createBus();
 
   // Report a the completion of a test. There may be other tests with the same
   // name that are still running, or not yet started.

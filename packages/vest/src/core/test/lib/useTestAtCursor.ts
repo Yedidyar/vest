@@ -1,8 +1,5 @@
-import defaultTo from 'defaultTo';
 import { isEmpty, isNotEmpty } from 'isEmpty';
-import { isNullish } from 'isNullish';
-import * as nestedArray from 'nestedArray';
-import { deferThrow } from 'throwError';
+import { isNullish, nestedArray, defaultTo, deferThrow } from 'vest-utils';
 
 import VestTest from 'VestTest';
 import { VestTests } from 'createStateRef';

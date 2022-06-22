@@ -1,3 +1,3 @@
-declare var __DEV__: boolean;
-declare var __LIB_VERSION__: string;
-declare var LIBRARY_NAME: string;
+declare let __DEV__: boolean;
+declare let __LIB_VERSION__: string;
+declare let LIBRARY_NAME: string;

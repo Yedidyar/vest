@@ -1,7 +1,9 @@
-import assign from 'assign';
-import defaultTo from 'defaultTo';
-import invariant from 'invariant';
-import optionalFunctionValue from 'optionalFunctionValue';
+import {
+  assign,
+  defaultTo,
+  invariant,
+  optionalFunctionValue,
+} from 'vest-utils';
 
 // eslint-disable-next-line max-lines-per-function
 export function createContext<T extends Record<string, unknown>>(

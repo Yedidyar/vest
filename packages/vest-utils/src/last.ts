@@ -1,4 +1,4 @@
-import asArray from 'asArray';
+import { asArray } from 'vest-utils';
 
 export default function last<T>(values: T | T[]): T {
   const valuesArray = asArray(values);

@@ -1,4 +1,4 @@
-import genId from 'genId';
+import { genId } from 'vest-utils';
 
 import shouldUseErrorAsMessage from 'shouldUseErrorAsMessage';
 import { useRefreshTestObjects } from 'stateHooks';

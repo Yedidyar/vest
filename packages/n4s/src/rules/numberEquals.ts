@@ -1,4 +1,4 @@
-import bindNot from 'bindNot';
+import { bindNot } from 'vest-utils';
 
 import { isNumeric } from 'isNumeric';
 

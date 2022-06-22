@@ -1,9 +1,6 @@
-import assign from 'assign';
-import genId from 'genId';
-import invariant from 'invariant';
-import isFunction from 'isFunction';
 import { CB } from 'utilityTypes';
 import { createState } from 'vast';
+import { assign, genId, invariant, isFunction } from 'vest-utils';
 
 import { IsolateTypes } from 'IsolateTypes';
 import createStateRef from 'createStateRef';

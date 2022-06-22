@@ -1,5 +1,4 @@
-import bindNot from 'bindNot';
-import hasOwnProperty from 'hasOwnProperty';
+import { bindNot, hasOwnProperty } from 'vest-utils';
 
 import { lengthEquals } from 'lengthEquals';
 

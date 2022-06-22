@@ -1,7 +1,5 @@
-import defaultTo from 'defaultTo';
-import hasOwnProperty from 'hasOwnProperty';
-import invariant from 'invariant';
 import { isPositive } from 'isPositive';
+import { defaultTo, hasOwnProperty, invariant } from 'vest-utils';
 
 import { SeverityCount } from 'Severity';
 import { SuiteSummary } from 'genTestsSummary';

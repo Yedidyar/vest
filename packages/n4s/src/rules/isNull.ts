@@ -1,4 +1,4 @@
-import bindNot from 'bindNot';
+import { bindNot } from 'vest-utils';
 
 export function isNull(value: unknown): value is null {
   return value === null;

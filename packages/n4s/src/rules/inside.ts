@@ -1,5 +1,5 @@
-import bindNot from 'bindNot';
 import { isStringValue as isString } from 'isStringValue';
+import { bindNot } from 'vest-utils';
 
 import { isArray } from 'isArrayValue';
 

@@ -1,9 +1,7 @@
 import { isArray } from 'isArrayValue';
 import { isNotNull } from 'isNull';
 
-import asArray from 'asArray';
-import defaultTo from 'defaultTo';
-import last from 'last';
+import { asArray, defaultTo, last } from 'vest-utils';
 
 export type NestedArray<T> = Array<NestedArray<T> | T>;
 

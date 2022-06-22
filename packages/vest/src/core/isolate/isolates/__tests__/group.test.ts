@@ -1,7 +1,7 @@
 import { enforce } from 'enforce';
 import faker from 'faker';
 import _ from 'lodash';
-import partition from 'partition';
+import { partition } from 'vest-utils';
 
 import { dummyTest } from '../../../../../testUtils/testDummy';
 
