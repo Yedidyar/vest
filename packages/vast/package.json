@@ -19,7 +19,7 @@
     "url": "https://github.com/ealush/vest.git/issues"
   },
   "dependencies": {
-    "vest-utils": "^0.0.3-rc"
+    "vest-utils": "^0.0.4-rc"
   },
   "exports": {
     ".": {
