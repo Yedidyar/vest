@@ -11,7 +11,7 @@
     "release": "vx release"
   },
   "dependencies": {
-    "vest-utils": "^0.0.3-rc"
+    "vest-utils": "^0.0.4-rc"
   },
   "module": "./dist/es/context.production.js",
   "exports": {

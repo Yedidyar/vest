@@ -1,6 +1,6 @@
-import createCache from 'cache';
 import { ValueOf } from 'utilityTypes';
 import {
+  cache as createCache,
   nestedArray,
   asArray,
   assign,

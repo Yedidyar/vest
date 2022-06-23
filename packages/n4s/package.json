@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "context": "^2.0.6",
-    "vest-utils": "^0.0.3-rc"
+    "vest-utils": "^0.0.4-rc"
   },
   "module": "./dist/es/n4s.production.js",
   "exports": {

@@ -1,5 +1,4 @@
-import { invariant, StringObject } from 'vest-utils';
-import { isNullish } from 'vest-utils';
+import { invariant, StringObject, isNullish } from 'vest-utils';
 
 import eachEnforceRule from 'eachEnforceRule';
 import { ctx } from 'enforceContext';
